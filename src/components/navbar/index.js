@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { NavbarContainer, NavbarLogo, NavbarLink, NavbarButton } from '../styledComponents/shared.js'
+import { NavbarOutsideContainer, NavbarInsideContainerLarge, NavbarLogo, NavbarLink, NavbarButton } from '../styledComponents/shared.js'
 import Logo from '../../assets/shared/desktop/logo.svg';
 
 class Navbar extends React.Component {
@@ -24,19 +24,23 @@ class Navbar extends React.Component {
 
     render () {
         return (
-            <NavbarContainer>
-                <NavbarLogo to='/' src={Logo} alt='logo' />
+            <NavbarOutsideContainer>
+                <NavbarInsideContainerLarge>
+                    <NavbarLogo to='/' src={Logo} alt='logo' />
 
-                <NavbarLink to='/pricing'>Pricing</NavbarLink>
+                    <NavbarLink to='/pricing'>Pricing</NavbarLink>
 
-                <NavbarLink to='/about'>About</NavbarLink>
+                    <NavbarLink to='/about'>About</NavbarLink>
 
-                <NavbarLink to='/contact'>Contact</NavbarLink>
+                    <NavbarLink to='/contact'>Contact</NavbarLink>
 
-                <NavbarButton to='/contact'>
-                    Schedule a Demo
-                </NavbarButton>
-            </NavbarContainer>
+                    <NavbarButton to='/contact'>
+                        Schedule a Demo
+                    </NavbarButton>
+                </NavbarInsideContainerLarge>
+
+
+            </NavbarOutsideContainer>
         )
     }
 }
