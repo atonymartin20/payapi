@@ -122,6 +122,103 @@ const HomepageSecondPortion = styled.div`
     width: 100%;
     height: 472px;
     background: #1B262F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(${BGCircles});
+    background-position: 0% -172px; 
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    padding: 0px 11.38888888%;
+`;
+
+const HomepageSecondPortionLeftSide = styled.div`
+    width: 40.0179856115%;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+`;
+
+const HomepageSecondPortionLeftSideH2 = styled.h2`
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #FBFCFE;
+`;
+
+const HomepageSecondPortionLeftSideP = styled.p`
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+`;
+
+const HomepageSecondPortionLeftSideAboutUsButton = styled.div`
+    width: 129px;
+    height: 48px;
+    border: 1px solid #FBFCFE;
+    box-sizing: border-box;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #FBFCFE;
+    margin-top: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background: #FFFFFF;
+        color: #1B262F;
+    }
+`;
+
+const HomepageSecondPortionRightSide = styled.div`
+    width: 48.2014388489%;
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+`;
+
+const HomepageSecondPortionRightSideLogosRow1 = styled.div`
+    width: 100%;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`;
+
+const HomepageSecondPortionRightSideLogosRow2 = styled.div`
+    width: 100%;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`;
+
+const HomepageSecondPortionRightSideIMG = styled.img`
+
+`;
+
+const HomepageThirdPortion = styled.div`
+    width: 100%;
+    max-width: 1015px;
+    height: 284px;
 `;
 
 export {
@@ -135,4 +232,13 @@ export {
     HomepageTopPortionHeaderBottomDarkSpan, 
     HomepageTopPortionPhoneIMG,
     HomepageSecondPortion,
+    HomepageSecondPortionLeftSide,
+    HomepageSecondPortionLeftSideH2,
+    HomepageSecondPortionLeftSideP,
+    HomepageSecondPortionLeftSideAboutUsButton,
+    HomepageSecondPortionRightSide,
+    HomepageSecondPortionRightSideLogosRow1,
+    HomepageSecondPortionRightSideLogosRow2,
+    HomepageSecondPortionRightSideIMG,
+    HomepageThirdPortion,
 }
