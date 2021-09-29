@@ -219,6 +219,43 @@ const HomepageThirdPortion = styled.div`
     width: 100%;
     max-width: 1015px;
     height: 284px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+`;
+
+const HomepageThirdPortionLeftSideIMG = styled.img`
+    width: 445px;
+    height: 284px;
+`;
+
+const HomepageThirdPortionRightSideDiv = styled.div`
+    width: 445px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+`;
+
+const HomepageThirdPortionRightSideH2 = styled.h2`
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+`;
+
+const HomepageThirdPortionRightSideP = styled.p`
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: #6C8294;
 `;
 
 export {
@@ -241,4 +278,8 @@ export {
     HomepageSecondPortionRightSideLogosRow2,
     HomepageSecondPortionRightSideIMG,
     HomepageThirdPortion,
+    HomepageThirdPortionLeftSideIMG,
+    HomepageThirdPortionRightSideDiv,
+    HomepageThirdPortionRightSideH2,
+    HomepageThirdPortionRightSideP,
 }
