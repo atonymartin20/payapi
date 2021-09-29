@@ -126,7 +126,7 @@ const HomepageSecondPortion = styled.div`
     justify-content: space-between;
     align-items: center;
     background-image: url(${BGCircles});
-    background-position: 0% -172px; 
+    background-position: -35.75% -359px; 
     background-repeat: no-repeat;
     margin-bottom: 150px;
     padding: 0px 11.38888888%;
