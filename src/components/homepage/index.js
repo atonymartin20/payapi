@@ -8,9 +8,10 @@ import HPLogo from '../../assets/shared/desktop/hewlett-packard-white.svg';
 import OracleLogo from '../../assets/shared/desktop/oracle-white.svg';
 import GoogleLogo from '../../assets/shared/desktop/google-white.svg';
 import NvidiaLogo from '../../assets/shared/desktop/nvidia-white.svg';
+import EasyToImplement from '../../assets/home/desktop/illustration-easy-to-implement.svg';
 
 import { SharedOutsideContainer, SharedInsideContainer } from '../styledComponents/shared.js';
-import { HomepageTopPortion, HomepageTopPortionHeaderDiv, HomepageTopPortionHeaderH1, HomepageTopPortionHeaderSpan, HomepageTopPortionHeaderInput, HomepageTopPortionHeaderButton, HomepageTopPortionHeaderBottomSpan, HomepageTopPortionHeaderBottomDarkSpan, HomepageTopPortionPhoneIMG, HomepageSecondPortion, HomepageSecondPortionLeftSide, HomepageSecondPortionLeftSideH2, HomepageSecondPortionLeftSideP, HomepageSecondPortionLeftSideAboutUsButton, HomepageSecondPortionRightSide, HomepageSecondPortionRightSideLogosRow1, HomepageSecondPortionRightSideLogosRow2, HomepageSecondPortionRightSideIMG, HomepageThirdPortion, } from '../styledComponents/homepage.js';
+import { HomepageTopPortion, HomepageTopPortionHeaderDiv, HomepageTopPortionHeaderH1, HomepageTopPortionHeaderSpan, HomepageTopPortionHeaderInput, HomepageTopPortionHeaderButton, HomepageTopPortionHeaderBottomSpan, HomepageTopPortionHeaderBottomDarkSpan, HomepageTopPortionPhoneIMG, HomepageSecondPortion, HomepageSecondPortionLeftSide, HomepageSecondPortionLeftSideH2, HomepageSecondPortionLeftSideP, HomepageSecondPortionLeftSideAboutUsButton, HomepageSecondPortionRightSide, HomepageSecondPortionRightSideLogosRow1, HomepageSecondPortionRightSideLogosRow2, HomepageSecondPortionRightSideIMG, HomepageThirdPortion, HomepageThirdPortionLeftSideIMG, HomepageThirdPortionRightSideDiv, HomepageThirdPortionRightSideH2, HomepageThirdPortionRightSideP, } from '../styledComponents/homepage.js';
 
 
 class Homepage extends React.Component {
@@ -85,7 +86,22 @@ class Homepage extends React.Component {
 
 
                     </HomepageSecondPortion>
-                    <HomepageThirdPortion></HomepageThirdPortion>
+                    <HomepageThirdPortion>
+                        <HomepageThirdPortionLeftSideIMG src={EasyToImplement} alt='coding page' />
+
+                        <HomepageThirdPortionRightSideDiv>
+                            <HomepageThirdPortionRightSideH2>
+                                Easy to implement
+                            </HomepageThirdPortionRightSideH2>
+                            <HomepageThirdPortionRightSideP>
+                                Our API comes with just a few lines of code. You’ll be up and running in 
+                                no time. We built our documentation page to integrate payments functionality 
+                                with ease.
+                            </HomepageThirdPortionRightSideP>
+                        </HomepageThirdPortionRightSideDiv>
+                    </HomepageThirdPortion>
+
+
                 </SharedInsideContainer>
             </SharedOutsideContainer>
         )
