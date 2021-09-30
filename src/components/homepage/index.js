@@ -10,10 +10,13 @@ import GoogleLogo from '../../assets/shared/desktop/google-white.svg';
 import NvidiaLogo from '../../assets/shared/desktop/nvidia-white.svg';
 import EasyToImplement from '../../assets/home/desktop/illustration-easy-to-implement.svg';
 import SimpleUI from '../../assets/home/desktop/illustration-simple-ui.svg';
+import PersonalFinances from '../../assets/home/desktop/icon-personal-finances.svg';
+import ConsumerPayments from '../../assets/home/desktop/icon-consumer-payments.svg';
+import BankingAndCoverage from '../../assets/home/desktop/icon-banking-and-coverage.svg';
 
 import { SharedOutsideContainer, SharedInsideContainer } from '../styledComponents/shared.js';
 import { HomepageTopPortion, HomepageTopPortionHeaderDiv, HomepageTopPortionHeaderH1, HomepageTopPortionHeaderSpan, HomepageTopPortionHeaderInput, HomepageTopPortionHeaderButton, HomepageTopPortionHeaderBottomSpan, HomepageTopPortionHeaderBottomDarkSpan, HomepageTopPortionPhoneIMG, HomepageSecondPortion, HomepageSecondPortionLeftSide, HomepageSecondPortionLeftSideH2, HomepageSecondPortionLeftSideP, HomepageSecondPortionLeftSideAboutUsButton, HomepageSecondPortionRightSide, HomepageSecondPortionRightSideLogosRow1, HomepageSecondPortionRightSideLogosRow2, HomepageSecondPortionRightSideIMG, HomepageThirdPortion, HomepageThirdPortionLeftSideIMG, HomepageThirdPortionRightSideDiv, HomepageThirdPortionRightSideH2, HomepageThirdPortionRightSideP, 
-    HomepageFourthPortion, HomepageFourthPortionLeftSide, HomepageFourthPortionLeftSideH2, HomepageFourthPortionLeftSideP, HomepageFourthPortionRightSideIMG, } from '../styledComponents/homepage.js';
+    HomepageFourthPortion, HomepageFourthPortionLeftSide, HomepageFourthPortionLeftSideH2, HomepageFourthPortionLeftSideP, HomepageFourthPortionRightSideIMG, HomepageFifthPortion, HomepageFifthPortionContainer, HomepageFifthPortionContainerIMG, HomepageFifthPortionContainerText, HomepageFifthPortionContainerTextH4, HomepageFifthPortionContainerTextP, } from '../styledComponents/homepage.js';
 
 
 class Homepage extends React.Component {
@@ -117,6 +120,53 @@ class Homepage extends React.Component {
 
                         <HomepageFourthPortionRightSideIMG src={SimpleUI} alt='' />
                     </HomepageFourthPortion>
+
+                    <HomepageFifthPortion>
+                        <HomepageFifthPortionContainer>
+                            <HomepageFifthPortionContainerIMG src={PersonalFinances} alt='' />
+                            
+                            <HomepageFifthPortionContainerText>
+                                <HomepageFifthPortionContainerTextH4>
+                                    Personal Finances
+                                </HomepageFifthPortionContainerTextH4>
+                                <HomepageFifthPortionContainerTextP>
+                                    Consolidate financial data from multiple sources and categorize transactions up to
+                                    2 years of history. Analyze reports to reconcile activities in your account.
+                                </HomepageFifthPortionContainerTextP>
+                            </HomepageFifthPortionContainerText>
+                        </HomepageFifthPortionContainer>
+
+                        <HomepageFifthPortionContainer>
+                            <HomepageFifthPortionContainerIMG src={BankingAndCoverage} alt='' />
+                            
+                            <HomepageFifthPortionContainerText>
+                                <HomepageFifthPortionContainerTextH4>
+                                    Banking &amp; Coverage
+                                </HomepageFifthPortionContainerTextH4>
+                                <HomepageFifthPortionContainerTextP>
+                                    With our platform, you can speed up account onboarding and support ongoing payments 
+                                    for checking, savings, credit card, and brokerage accounts.
+                                </HomepageFifthPortionContainerTextP>
+                            </HomepageFifthPortionContainerText>
+                        </HomepageFifthPortionContainer>
+
+                        <HomepageFifthPortionContainer>
+                            <HomepageFifthPortionContainerIMG src={ConsumerPayments} alt='' />
+                            
+                            <HomepageFifthPortionContainerText>
+                                <HomepageFifthPortionContainerTextH4>
+                                    Consumer Payments
+                                </HomepageFifthPortionContainerTextH4>
+                                <HomepageFifthPortionContainerTextP>
+                                    It’s easier to set up secure bank payments with us through a flow designed with the 
+                                    user experience in mind. Customers could instantly authenticate their account.
+                                </HomepageFifthPortionContainerTextP>
+                            </HomepageFifthPortionContainerText>
+                        </HomepageFifthPortionContainer>
+
+                    </HomepageFifthPortion>
+
+
                 </SharedInsideContainer>
             </SharedOutsideContainer>
         )
