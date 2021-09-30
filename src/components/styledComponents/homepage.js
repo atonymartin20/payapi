@@ -359,6 +359,40 @@ const HomepageFifthPortionContainerTextP = styled.p`
     color: #6C8294;
 `;
 
+const HomepageSixthPortion = styled.div`
+    width: 100%;
+    max-width: 1110px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    margin-bottom: 96px;
+`;
+
+const HomepageSixthPortionH2 = styled.h2`
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+`;
+
+const HomepageSixthPortionSpan = styled.span`
+    width: 445px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    // margin-bottom: 16px;
+`;
+
+
 export {
     HomepageTopPortion,
     HomepageTopPortionHeaderDiv,
@@ -394,4 +428,7 @@ export {
     HomepageFifthPortionContainerText,
     HomepageFifthPortionContainerTextH4,
     HomepageFifthPortionContainerTextP,
+    HomepageSixthPortion,
+    HomepageSixthPortionH2,
+    HomepageSixthPortionSpan,
 }

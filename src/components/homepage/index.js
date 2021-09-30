@@ -16,7 +16,7 @@ import BankingAndCoverage from '../../assets/home/desktop/icon-banking-and-cover
 
 import { SharedOutsideContainer, SharedInsideContainer } from '../styledComponents/shared.js';
 import { HomepageTopPortion, HomepageTopPortionHeaderDiv, HomepageTopPortionHeaderH1, HomepageTopPortionHeaderSpan, HomepageTopPortionHeaderInput, HomepageTopPortionHeaderButton, HomepageTopPortionHeaderBottomSpan, HomepageTopPortionHeaderBottomDarkSpan, HomepageTopPortionPhoneIMG, HomepageSecondPortion, HomepageSecondPortionLeftSide, HomepageSecondPortionLeftSideH2, HomepageSecondPortionLeftSideP, HomepageSecondPortionLeftSideAboutUsButton, HomepageSecondPortionRightSide, HomepageSecondPortionRightSideLogosRow1, HomepageSecondPortionRightSideLogosRow2, HomepageSecondPortionRightSideIMG, HomepageThirdPortion, HomepageThirdPortionLeftSideIMG, HomepageThirdPortionRightSideDiv, HomepageThirdPortionRightSideH2, HomepageThirdPortionRightSideP, 
-    HomepageFourthPortion, HomepageFourthPortionLeftSide, HomepageFourthPortionLeftSideH2, HomepageFourthPortionLeftSideP, HomepageFourthPortionRightSideIMG, HomepageFifthPortion, HomepageFifthPortionContainer, HomepageFifthPortionContainerIMG, HomepageFifthPortionContainerText, HomepageFifthPortionContainerTextH4, HomepageFifthPortionContainerTextP, } from '../styledComponents/homepage.js';
+    HomepageFourthPortion, HomepageFourthPortionLeftSide, HomepageFourthPortionLeftSideH2, HomepageFourthPortionLeftSideP, HomepageFourthPortionRightSideIMG, HomepageFifthPortion, HomepageFifthPortionContainer, HomepageFifthPortionContainerIMG, HomepageFifthPortionContainerText, HomepageFifthPortionContainerTextH4, HomepageFifthPortionContainerTextP, HomepageSixthPortion, HomepageSixthPortionH2, HomepageSixthPortionSpan, } from '../styledComponents/homepage.js';
 
 
 class Homepage extends React.Component {
@@ -163,9 +163,20 @@ class Homepage extends React.Component {
                                 </HomepageFifthPortionContainerTextP>
                             </HomepageFifthPortionContainerText>
                         </HomepageFifthPortionContainer>
-
                     </HomepageFifthPortion>
 
+                    <HomepageSixthPortion>
+                        <HomepageSixthPortionH2>
+                            Ready to start?
+                        </HomepageSixthPortionH2>
+
+                        <HomepageSixthPortionSpan>
+                            <HomepageTopPortionHeaderInput placeholder='Enter email address'/>
+                            <HomepageTopPortionHeaderButton>
+                                Schedule a Demo
+                            </HomepageTopPortionHeaderButton>
+                        </HomepageSixthPortionSpan>
+                    </HomepageSixthPortion>
 
                 </SharedInsideContainer>
             </SharedOutsideContainer>
