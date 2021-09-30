@@ -269,7 +269,6 @@ const HomepageFourthPortion = styled.div`
     background-image: url(${BGCircles});
     background-position: 159% 0px; 
     background-repeat: no-repeat;
-    border: 1px solid black;
     padding-left: 11.458333333%;
     padding-right: 4.51388888888%;
 `;
@@ -305,6 +304,61 @@ const HomepageFourthPortionRightSideIMG = styled.img`
     margin-top: 50px;
 `;
 
+const HomepageFifthPortion = styled.div`
+    width: 100%;
+    height: 285px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 11.4583333%;
+    margin-bottom: 96px;
+`;
+
+const HomepageFifthPortionContainer = styled.div`
+    width: 31.531531531%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+`;
+
+const HomepageFifthPortionContainerIMG = styled.img`
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+`;
+
+const HomepageFifthPortionContainerText = styled.div`
+    width: 100%;
+    height: 141px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+`;
+
+const HomepageFifthPortionContainerTextH4 = styled.h4`
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.138462px;
+    color: #36536B;
+`;
+
+const HomepageFifthPortionContainerTextP = styled.p`
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #6C8294;
+`;
+
 export {
     HomepageTopPortion,
     HomepageTopPortionHeaderDiv,
@@ -334,4 +388,10 @@ export {
     HomepageFourthPortionLeftSideH2,
     HomepageFourthPortionLeftSideP,
     HomepageFourthPortionRightSideIMG,
+    HomepageFifthPortion,
+    HomepageFifthPortionContainer,
+    HomepageFifthPortionContainerIMG,
+    HomepageFifthPortionContainerText,
+    HomepageFifthPortionContainerTextH4,
+    HomepageFifthPortionContainerTextP,
 }
