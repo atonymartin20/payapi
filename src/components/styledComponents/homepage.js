@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import BGCircles from '../../assets/shared/desktop/bg-pattern-circle.svg';
 
 const HomepageTopPortion = styled.div`
@@ -258,6 +258,53 @@ const HomepageThirdPortionRightSideP = styled.p`
     color: #6C8294;
 `;
 
+const HomepageFourthPortion = styled.div`
+    width: 100%;
+    height: 780px;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(${BGCircles});
+    background-position: 159% 0px; 
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    padding-left: 11.458333333%;
+    padding-right: 4.51388888888%;
+`;
+
+const HomepageFourthPortionLeftSide = styled.div`
+    width: 445px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+`;
+
+const HomepageFourthPortionLeftSideH2 = styled.h2`
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+`;
+
+const HomepageFourthPortionLeftSideP = styled.p`
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: #6C8294;
+`;
+
+const HomepageFourthPortionRightSideIMG = styled.img`
+    margin-top: 50px;
+`;
+
 export {
     HomepageTopPortion,
     HomepageTopPortionHeaderDiv,
@@ -282,4 +329,9 @@ export {
     HomepageThirdPortionRightSideDiv,
     HomepageThirdPortionRightSideH2,
     HomepageThirdPortionRightSideP,
+    HomepageFourthPortion,
+    HomepageFourthPortionLeftSide,
+    HomepageFourthPortionLeftSideH2,
+    HomepageFourthPortionLeftSideP,
+    HomepageFourthPortionRightSideIMG,
 }
