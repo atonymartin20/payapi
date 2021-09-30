@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import PhoneIMG from '../../assets/home/desktop/illustration-phone-mockup.svg';
 import Navbar from '../navbar';
 import TeslaLogo from '../../assets/shared/desktop/tesla-white.svg';
@@ -9,9 +9,11 @@ import OracleLogo from '../../assets/shared/desktop/oracle-white.svg';
 import GoogleLogo from '../../assets/shared/desktop/google-white.svg';
 import NvidiaLogo from '../../assets/shared/desktop/nvidia-white.svg';
 import EasyToImplement from '../../assets/home/desktop/illustration-easy-to-implement.svg';
+import SimpleUI from '../../assets/home/desktop/illustration-simple-ui.svg';
 
 import { SharedOutsideContainer, SharedInsideContainer } from '../styledComponents/shared.js';
-import { HomepageTopPortion, HomepageTopPortionHeaderDiv, HomepageTopPortionHeaderH1, HomepageTopPortionHeaderSpan, HomepageTopPortionHeaderInput, HomepageTopPortionHeaderButton, HomepageTopPortionHeaderBottomSpan, HomepageTopPortionHeaderBottomDarkSpan, HomepageTopPortionPhoneIMG, HomepageSecondPortion, HomepageSecondPortionLeftSide, HomepageSecondPortionLeftSideH2, HomepageSecondPortionLeftSideP, HomepageSecondPortionLeftSideAboutUsButton, HomepageSecondPortionRightSide, HomepageSecondPortionRightSideLogosRow1, HomepageSecondPortionRightSideLogosRow2, HomepageSecondPortionRightSideIMG, HomepageThirdPortion, HomepageThirdPortionLeftSideIMG, HomepageThirdPortionRightSideDiv, HomepageThirdPortionRightSideH2, HomepageThirdPortionRightSideP, } from '../styledComponents/homepage.js';
+import { HomepageTopPortion, HomepageTopPortionHeaderDiv, HomepageTopPortionHeaderH1, HomepageTopPortionHeaderSpan, HomepageTopPortionHeaderInput, HomepageTopPortionHeaderButton, HomepageTopPortionHeaderBottomSpan, HomepageTopPortionHeaderBottomDarkSpan, HomepageTopPortionPhoneIMG, HomepageSecondPortion, HomepageSecondPortionLeftSide, HomepageSecondPortionLeftSideH2, HomepageSecondPortionLeftSideP, HomepageSecondPortionLeftSideAboutUsButton, HomepageSecondPortionRightSide, HomepageSecondPortionRightSideLogosRow1, HomepageSecondPortionRightSideLogosRow2, HomepageSecondPortionRightSideIMG, HomepageThirdPortion, HomepageThirdPortionLeftSideIMG, HomepageThirdPortionRightSideDiv, HomepageThirdPortionRightSideH2, HomepageThirdPortionRightSideP, 
+    HomepageFourthPortion, HomepageFourthPortionLeftSide, HomepageFourthPortionLeftSideH2, HomepageFourthPortionLeftSideP, HomepageFourthPortionRightSideIMG, } from '../styledComponents/homepage.js';
 
 
 class Homepage extends React.Component {
@@ -101,7 +103,20 @@ class Homepage extends React.Component {
                         </HomepageThirdPortionRightSideDiv>
                     </HomepageThirdPortion>
 
+                    <HomepageFourthPortion>
+                        <HomepageFourthPortionLeftSide>
+                            <HomepageFourthPortionLeftSideH2>
+                                Simple UI &amp; UX
+                            </HomepageFourthPortionLeftSideH2>
 
+                            <HomepageFourthPortionLeftSideP> 
+                                Our pre-built form is easy to integrate in your app or website’s checkout 
+                                flow and designed to optimize conversion.
+                            </HomepageFourthPortionLeftSideP>                 
+                        </HomepageFourthPortionLeftSide>
+
+                        <HomepageFourthPortionRightSideIMG src={SimpleUI} alt='' />
+                    </HomepageFourthPortion>
                 </SharedInsideContainer>
             </SharedOutsideContainer>
         )
