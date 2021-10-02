@@ -19,6 +19,17 @@ const HomepageTopPortionHeaderDiv = styled.div`
     margin-bottom: 152px;
     margin-right: 10.555555%;
     margin-left: auto;
+
+    @media (max-width: 1140px) {
+        margin-left: 5%;
+        margin-right: 0px;
+    }
+
+    @media(max-width: 1000px) {
+        width: 400px;
+        height: auto;
+        margin-right: 10%;
+    }
 `;
 
 const HomepageTopPortionHeaderH1 = styled.h1`
@@ -30,6 +41,11 @@ const HomepageTopPortionHeaderH1 = styled.h1`
     letter-spacing: -0.553846px;
     color: #36536B;
     margin-bottom: 48px;
+
+    @media(max-width: 1000px) {
+        font-size: 4.8rem;
+        line-height: 48px;
+    }
 `;
 
 const HomepageTopPortionHeaderSpan = styled.span`
@@ -116,6 +132,10 @@ const HomepageTopPortionHeaderBottomDarkSpan = styled.span`
 const HomepageTopPortionPhoneIMG = styled.img`
     margin-right: 10.763888%;
     margin-bottom: -30px;
+
+    @media(max-width: 1275px) {
+        margin-right: 0px;
+    }
 `;
 
 const HomepageSecondPortion = styled.div`
