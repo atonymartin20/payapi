@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import { Link } from 'react-router-dom';
 import BGCircles from '../../assets/shared/desktop/bg-pattern-circle.svg';
 
 const HomepageTopPortion = styled.div`
@@ -7,29 +6,38 @@ const HomepageTopPortion = styled.div`
     height: 737px;
     margin-top: -88px;
     display: flex;
+    box-sizing: border-box;
     background-image: url(${BGCircles});
     background-position: 121% -172px; 
     background-repeat: no-repeat;
+    justify-content: space-between;
     align-items: flex-end;
+    padding-left: 11.458333333%;
+    padding-right: 18.056%;
+
+    @media (max-width: 1175px) {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    @media (max-width: 1050px) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 `;
 
 const HomepageTopPortionHeaderDiv = styled.div`
     width: 546px;
     height: 345px;
     margin-bottom: 152px;
-    margin-right: 10.555555%;
-    margin-left: auto;
 
-    @media (max-width: 1140px) {
-        margin-left: 5%;
-        margin-right: 0px;
-    }
-
-    @media(max-width: 1000px) {
-        width: 400px;
+    @media (max-width: 1000px) {
         height: auto;
-        margin-right: 10%;
     }
+    @media (max-width: 900px) {
+        width: 52%;
+    }
+
 `;
 
 const HomepageTopPortionHeaderH1 = styled.h1`
@@ -49,7 +57,8 @@ const HomepageTopPortionHeaderH1 = styled.h1`
 `;
 
 const HomepageTopPortionHeaderSpan = styled.span`
-    width: 445px;
+    width: 100%;
+    max-width: 445px;
     height: 48px;
     display: flex;
     justify-content: space-between;
@@ -130,12 +139,9 @@ const HomepageTopPortionHeaderBottomDarkSpan = styled.span`
 `;
 
 const HomepageTopPortionPhoneIMG = styled.img`
-    margin-right: 10.763888%;
-    margin-bottom: -30px;
+    margin-right: 0%;
+    margin-bottom: 75px;
 
-    @media(max-width: 1275px) {
-        margin-right: 0px;
-    }
 `;
 
 const HomepageSecondPortion = styled.div`
@@ -150,6 +156,10 @@ const HomepageSecondPortion = styled.div`
     background-repeat: no-repeat;
     margin-bottom: 150px;
     padding: 0px 11.38888888%;
+
+    @media (max-width: 1275px) {
+        padding: 0px 5%;
+    }
 `;
 
 const HomepageSecondPortionLeftSide = styled.div`
@@ -158,6 +168,11 @@ const HomepageSecondPortionLeftSide = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (max-width: 1100px) {
+        width: 36%;
+        height: auto;
+    }
 `;
 
 const HomepageSecondPortionLeftSideH2 = styled.h2`
@@ -168,6 +183,11 @@ const HomepageSecondPortionLeftSideH2 = styled.h2`
     line-height: 56px;
     letter-spacing: -0.369231px;
     color: #FBFCFE;
+
+    @media (max-width: 1100px) {
+        font-size: 4.0rem;
+        line-height: 56px;
+    }
 `;
 
 const HomepageSecondPortionLeftSideP = styled.p`
@@ -179,6 +199,10 @@ const HomepageSecondPortionLeftSideP = styled.p`
     color: #FBFCFE;
     mix-blend-mode: normal;
     opacity: 0.7;
+
+    @media(max-width: 1100px) {
+        margin-bottom: 8px;
+    }
 `;
 
 const HomepageSecondPortionLeftSideAboutUsButton = styled.div`
@@ -213,6 +237,10 @@ const HomepageSecondPortionRightSide = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+    @media (max-width: 1100px) {
+        width: 55%;
+    }
 `;
 
 const HomepageSecondPortionRightSideLogosRow1 = styled.div`
@@ -291,6 +319,22 @@ const HomepageFourthPortion = styled.div`
     background-repeat: no-repeat;
     padding-left: 11.458333333%;
     padding-right: 4.51388888888%;
+    
+    @media (max-width: 1100px) {
+        padding-left: 4%;
+        padding-right: 4%;   
+        background-position: 240% 0px; 
+    }
+
+    @media (max-width: 1000px) {
+        padding-right: 0%;   
+        background-position: 300% 0px; 
+    }
+
+    @media (max-width: 925px) {
+        padding-left: 2%;
+        background-position: 400% 0px; 
+    }
 `;
 
 const HomepageFourthPortionLeftSide = styled.div`
@@ -299,6 +343,11 @@ const HomepageFourthPortionLeftSide = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (max-width: 925px) {
+        width: 40%;
+        height: auto;
+    }
 `;
 
 const HomepageFourthPortionLeftSideH2 = styled.h2`
@@ -309,6 +358,11 @@ const HomepageFourthPortionLeftSideH2 = styled.h2`
     line-height: 56px;
     letter-spacing: -0.369231px;
     color: #36536B;
+
+    @media (max-width: 925px) {
+        font-size: 4.0rem;
+        line-height: 48px;
+    }
 `;
 
 const HomepageFourthPortionLeftSideP = styled.p`
@@ -322,6 +376,20 @@ const HomepageFourthPortionLeftSideP = styled.p`
 
 const HomepageFourthPortionRightSideIMG = styled.img`
     margin-top: 50px;
+    overflow: hidden;
+
+    @media(max-width: 1000px) {
+        margin-left: 50px;
+    }
+
+    @media (max-width: 900px) {
+        margin-left: 0px;
+        margin-right: -40px;
+    }
+
+    @media (max-width: 850px) {
+        margin-right: -70px;
+    }
 `;
 
 const HomepageFifthPortion = styled.div`
