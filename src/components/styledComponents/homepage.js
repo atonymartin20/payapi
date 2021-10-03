@@ -475,6 +475,10 @@ const HomepageFifthPortion = styled.div`
     @media (max-width: 1150px) {
         padding: 0px 4%;
     }
+
+    @media (max-width: 850px) {
+        height: 310px;
+    }
 `;
 
 const HomepageFifthPortionContainer = styled.div`
@@ -499,6 +503,10 @@ const HomepageFifthPortionContainerText = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 850px) {
+        height: auto;
+    }
 `;
 
 const HomepageFifthPortionContainerTextH4 = styled.h4`
@@ -530,8 +538,12 @@ const HomepageSixthPortion = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 96px;
+    
+    @media (max-width: 1110px) {
+        padding: 0px 2%;
+    }
 `;
 
 const HomepageSixthPortionH2 = styled.h2`
@@ -553,7 +565,10 @@ const HomepageSixthPortionSpan = styled.span`
     background: #FBFCFE;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     border-radius: 24px;
-    // margin-bottom: 16px;
+
+    @media (max-width: 850px) {
+        width: 50%;
+    }
 `;
 
 
