@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="264.7782"
+   height="500.862"
+   version="1.1"
+   id="svg233"
+   sodipodi:docname="illustration-phone-mockup-2.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview235"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="-95"
+     fit-margin-left="-92"
+     fit-margin-right="-118"
+     fit-margin-bottom="-120"
+     inkscape:lockguides="false"
+     inkscape:zoom="1.2257576"
+     inkscape:cx="316.13103"
+     inkscape:cy="156.22991"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg233" />
+  <defs
+     id="defs176">
+    <linearGradient
+       id="c"
+       x1="0.5"
+       x2="0.5"
+       y1="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#454545"
+         id="stop123" />
+      <stop
+         offset="22.628%"
+         stop-color="#999"
+         id="stop125" />
+      <stop
+         offset="100%"
+         stop-color="#FFF"
+         id="stop127" />
+    </linearGradient>
+    <linearGradient
+       id="d"
+       x1="1"
+       x2="0.30702001"
+       y1="0.5"
+       y2="0.5">
+      <stop
+         offset="0%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop130" />
+      <stop
+         offset="22.218%"
+         stop-color="#BABABA"
+         id="stop132" />
+      <stop
+         offset="54.678%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop134" />
+      <stop
+         offset="100%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop136" />
+    </linearGradient>
+    <linearGradient
+       id="e"
+       x1="1"
+       x2="0.30590999"
+       y1="0.5"
+       y2="0.5">
+      <stop
+         offset="0%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop139" />
+      <stop
+         offset="22.218%"
+         stop-color="#BABABA"
+         id="stop141" />
+      <stop
+         offset="54.678%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop143" />
+      <stop
+         offset="100%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop145" />
+    </linearGradient>
+    <linearGradient
+       id="g"
+       x1="0.5"
+       x2="0.5"
+       y1="0"
+       y2="0.99221003">
+      <stop
+         offset="0%"
+         stop-color="#9CB6CD"
+         id="stop148" />
+      <stop
+         offset="42.056%"
+         stop-color="#9AB3CA"
+         id="stop150" />
+      <stop
+         offset="71.659%"
+         stop-color="#557496"
+         id="stop152" />
+      <stop
+         offset="100%"
+         stop-color="#475178"
+         id="stop154" />
+    </linearGradient>
+    <filter
+       id="a"
+       width="1.8422278"
+       height="1.43499"
+       x="-0.3725985"
+       y="-0.19243799"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dx="25"
+         dy="25"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset157" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="40"
+         id="feGaussianBlur159" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.212302148 0 0 0 0 0.325209598 0 0 0 0 0.419299139 0 0 0 0.300726617 0"
+         id="feColorMatrix161" />
+    </filter>
+    <filter
+       id="i"
+       width="1.321101"
+       height="1.8045977"
+       x="-0.13761468"
+       y="-0.34482759"
+       filterUnits="objectBoundingBox">
+      <feMorphology
+         in="SourceAlpha"
+         radius="5"
+         result="shadowSpreadOuter1"
+         id="feMorphology164" />
+      <feOffset
+         dx="10"
+         dy="10"
+         in="shadowSpreadOuter1"
+         result="shadowOffsetOuter1"
+         id="feOffset166" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="12.5"
+         id="feGaussianBlur168" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.212302148 0 0 0 0 0.325209598 0 0 0 0 0.419299139 0 0 0 0.25 0"
+         id="feColorMatrix170" />
+    </filter>
+    <path
+       id="b"
+       d="M 35.776,0.57 H 227.01 c 18.34,0 33.208,14.235 33.208,31.795 v 435.27 c 0,17.56 -14.867,31.796 -33.208,31.796 H 35.776 c -18.34,0 -33.208,-14.236 -33.208,-31.796 V 32.365 c 0,-17.56 14.868,-31.796 33.208,-31.796 z" />
+    <path
+       id="f"
+       d="M 93.602,0 H 19.196 C 8.09,0 0,7.563 0,17.441 v 422.39 c 0,12.88 12.502,24.292 26.64,24.292 h 179.332 c 13.618,0 26.64,-11.5 26.64,-24.292 V 18.583 C 232.612,6.743 223.822,0.07 213.416,0 H 137.83 c -0.287,0.047 -5.479,2.182 -7.673,7.563 -2.195,5.382 -6.61,9.672 -11.445,9.672 h -5.615 c -2.298,0 -8.348,-2.23 -11.411,-9.672 C 98.623,0.121 93.888,0.047 93.602,0 Z" />
+    <rect
+       id="j"
+       width="218"
+       height="87"
+       x="0"
+       y="0"
+       rx="5" />
+    <filter
+       id="a-3"
+       width="1.8422278"
+       height="1.43499"
+       x="-0.37259849"
+       y="-0.19243799"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dx="25"
+         dy="25"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset157-0" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="40"
+         id="feGaussianBlur159-0" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.212302148 0 0 0 0 0.325209598 0 0 0 0 0.419299139 0 0 0 0.300726617 0"
+         id="feColorMatrix161-2" />
+    </filter>
+    <linearGradient
+       id="c-9"
+       x1="29.020227"
+       x2="29.020227"
+       y1="0"
+       y2="54.683819"
+       gradientTransform="matrix(4.437181,0,0,0.22536831,-367.27926,-93.148951)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#454545"
+         id="stop123-8" />
+      <stop
+         offset="22.628%"
+         stop-color="#999"
+         id="stop125-8" />
+      <stop
+         offset="100%"
+         stop-color="#FFF"
+         id="stop127-3" />
+    </linearGradient>
+    <linearGradient
+       id="d-3"
+       x1="1512.1223"
+       x2="1456.5737"
+       y1="42.378498"
+       y2="42.378498"
+       gradientTransform="matrix(0.17031361,0,0,5.8715215,-367.27926,-93.148951)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop130-7" />
+      <stop
+         offset="22.218%"
+         stop-color="#BABABA"
+         id="stop132-4" />
+      <stop
+         offset="54.678%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop134-1" />
+      <stop
+         offset="100%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop136-6" />
+    </linearGradient>
+    <linearGradient
+       id="e-5"
+       x1="80.158012"
+       x2="24.52047"
+       y1="42.378498"
+       y2="42.378498"
+       gradientTransform="matrix(-0.17031361,0,0,5.8715215,-353.62726,-93.148951)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop139-0" />
+      <stop
+         offset="22.218%"
+         stop-color="#BABABA"
+         id="stop141-6" />
+      <stop
+         offset="54.678%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop143-9" />
+      <stop
+         offset="100%"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop145-5" />
+    </linearGradient>
+    <mask
+       id="h-3"
+       fill="#ffffff">
+      <use
+         xlink:href="#f"
+         id="use190-6"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </mask>
+    <mask
+       id="mask601"
+       fill="#ffffff">
+      <use
+         xlink:href="#f"
+         id="use599"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </mask>
+    <filter
+       id="i-0"
+       width="1.3211009"
+       height="1.8045977"
+       x="-0.13761468"
+       y="-0.34482759"
+       filterUnits="objectBoundingBox">
+      <feMorphology
+         in="SourceAlpha"
+         radius="5"
+         result="shadowSpreadOuter1"
+         id="feMorphology164-0" />
+      <feOffset
+         dx="10"
+         dy="10"
+         in="shadowSpreadOuter1"
+         result="shadowOffsetOuter1"
+         id="feOffset166-9" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="12.5"
+         id="feGaussianBlur168-9" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.212302148 0 0 0 0 0.325209598 0 0 0 0 0.419299139 0 0 0 0.25 0"
+         id="feColorMatrix170-0" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#g"
+       id="linearGradient825"
+       x1="164.28677"
+       y1="0"
+       x2="164.28677"
+       y2="326.01398"
+       gradientTransform="scale(0.70794499,1.4125391)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     transform="matrix(1.0002701,0,0,1,371.4044,93.579952)"
+     id="g231">
+    <use
+       fill="#000000"
+       filter="url(#a)"
+       xlink:href="#b"
+       id="use178-7"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="filter:url(#a-3)"
+       transform="translate(-369.84726,-93.148951)" />
+    <use
+       fill="#213648"
+       xlink:href="#b"
+       id="use180-0"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-369.84726,-93.148951)" />
+    <path
+       fill="url(#c)"
+       fill-opacity="0.65"
+       d="m -142.09926,-93.148951 h -192.824 c -9.004,0.549 -17.306,4.657 -24.909,12.324 4.89,-4.268 13.61,-9.98 25.14,-9.98 h 192.362 c 11.53,0 20.25,5.712 25.14,9.98 -7.603,-7.667 -15.906,-11.775 -24.909,-12.324 z"
+       opacity="0.596"
+       id="path182-2"
+       style="fill:url(#c-9)" />
+    <path
+       fill="url(#d)"
+       d="M -114.84826,369.52105 V -58.165951 c 0,-11.476 -4.217,-15.718 -6.733,-18.442 -2.516,-2.723 -2.623,-4.113 0.992,-2.056 3.615,2.056 10.845,8.047 10.845,20.498 V 369.52105 c 0,12.451 -7.23,18.441 -10.845,20.498 -3.615,2.056 -3.508,0.667 -0.992,-2.057 2.516,-2.724 6.733,-6.966 6.733,-18.441 z"
+       opacity="0.75"
+       id="path184-6"
+       style="fill:url(#d-3)" />
+    <path
+       fill="url(#e)"
+       d="M -362.17526,369.52105 V -58.165951 c 0,-11.476 4.217,-15.718 6.733,-18.442 2.516,-2.723 2.623,-4.113 -0.992,-2.056 -3.615,2.056 -10.845,8.047 -10.845,20.498 V 369.52105 c 0,12.451 7.23,18.441 10.845,20.498 3.615,2.056 3.508,0.667 0.992,-2.057 -2.516,-2.724 -6.733,-6.966 -6.733,-18.441 z"
+       opacity="0.75"
+       id="path186-0"
+       style="fill:url(#e-5)" />
+    <path
+       fill="#2e423c"
+       d="m -367.84726,8.408049 h 0.965 a 2,2 0 0 1 2,2 v 60.35 a 2,2 0 0 1 -2,2 h -0.965 a 2,2 0 0 1 -2,-2 v -60.35 a 2,2 0 0 1 2,-2 z m 257.535,52.487 h 0.965 a 2,2 0 0 1 2,2 v 42.950001 a 2,2 0 0 1 -2,2 h -0.965 a 2,2 0 0 1 -2,-2 V 62.895049 a 2,2 0 0 1 2,-2 z"
+       id="path188-5" />
+    <g
+       transform="translate(-354.77326,-80.704951)"
+       id="g201-2">
+      <mask
+         id="mask618"
+         fill="#ffffff">
+        <use
+           xlink:href="#f"
+           id="use616"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </mask>
+      <use
+         fill="#ffffff"
+         xlink:href="#f"
+         id="use193-4"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <path
+         fill="url(#g)"
+         mask="url(#h-3)"
+         d="m -0.074,0 c -221.27659,0.89907746 -13291.065,-745.64549 233,0 v 465 h -233 z"
+         id="path195-7"
+         sodipodi:nodetypes="ccccc"
+         style="fill:url(#linearGradient825)" />
+      <text
+         fill="#ffffff"
+         font-family="PublicSans-Bold, 'Public Sans'"
+         font-size="32px"
+         font-weight="bold"
+         mask="url(#h-3)"
+         id="text199-8"><tspan
+           x="73.926003"
+           y="127.556"
+           id="tspan197-4">12:49</tspan></text>
+    </g>
+    <g
+       transform="translate(-347.84726,73.851049)"
+       id="g229-6">
+      <use
+         fill="#000000"
+         filter="url(#i)"
+         xlink:href="#j"
+         id="use203-4"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%"
+         style="filter:url(#i-0)" />
+      <use
+         fill="#fbfcfe"
+         xlink:href="#j"
+         id="use205-7"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <g
+         font-size="10px"
+         id="g215-0">
+        <text
+           fill="#ba4270"
+           font-family="PublicSans-Bold, 'Public Sans'"
+           font-weight="bold"
+           transform="translate(16,16)"
+           id="text209-3"><tspan
+             x="0"
+             y="9"
+             id="tspan207-6">PayAPI</tspan></text>
+        <text
+           fill="#36536b"
+           font-family="PublicSans-Regular, 'Public Sans'"
+           opacity="0.5"
+           transform="translate(16,16)"
+           id="text213-8"><tspan
+             x="144.05"
+             y="9"
+             id="tspan211-6">Just Now</tspan></text>
+      </g>
+      <text
+         fill="#36536b"
+         font-family="PublicSans-Regular, 'Public Sans'"
+         font-size="10px"
+         id="text227-7"><tspan
+           x="16"
+           y="40"
+           id="tspan217-8">The payment has been processed. The</tspan><tspan
+           x="16"
+           y="54"
+           id="tspan219-4">total amount deducted from your</tspan><tspan
+           x="16"
+           y="68"
+           id="tspan221-4">account is</tspan><tspan
+           x="63.619999"
+           y="68"
+           font-family="PublicSans-Bold, 'Public Sans'"
+           font-weight="bold"
+           id="tspan223-0">US $104.90</tspan><tspan
+           x="121.855"
+           y="68"
+           id="tspan225-3">.</tspan></text>
+    </g>
+  </g>
+</svg>
