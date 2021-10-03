@@ -18,11 +18,23 @@ const HomepageTopPortion = styled.div`
     @media (max-width: 1175px) {
         padding-left: 10%;
         padding-right: 10%;
+        background-position: 171% -172px; 
     }
 
     @media (max-width: 1050px) {
         padding-left: 5%;
         padding-right: 5%;
+        background-position: 220% -172px; 
+    }
+
+    @media (max-width: 950px) {
+        padding-left: 5%;
+        padding-right: 5%;
+        background-position: 280% -172px; 
+    }
+
+    @media (max-width: 900px) {
+        background-position: 380% -172px; 
     }
 `;
 
@@ -160,6 +172,19 @@ const HomepageSecondPortion = styled.div`
     @media (max-width: 1275px) {
         padding: 0px 5%;
     }
+
+    @media (max-width: 1200px) {
+        background-position: -95.75% -359px; 
+    }
+
+    @media (max-width: 1000px) {
+        background-position: -150.75% -359px; 
+    }
+
+    @media (max-width: 900px) {
+        background-position: -300% -359px; 
+    }
+
 `;
 
 const HomepageSecondPortionLeftSide = styled.div`
@@ -172,6 +197,10 @@ const HomepageSecondPortionLeftSide = styled.div`
     @media (max-width: 1100px) {
         width: 36%;
         height: auto;
+    }
+
+    @media (max-width: 900px) {
+        width: 44%;
     }
 `;
 
@@ -241,6 +270,12 @@ const HomepageSecondPortionRightSide = styled.div`
     @media (max-width: 1100px) {
         width: 55%;
     }
+
+    @media (max-width: 900px) {
+        width: 44%;
+        flex-direction: row;
+        height: 200px;
+    }
 `;
 
 const HomepageSecondPortionRightSideLogosRow1 = styled.div`
@@ -249,6 +284,11 @@ const HomepageSecondPortionRightSideLogosRow1 = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+        height: 100%;
+    }
 `;
 
 const HomepageSecondPortionRightSideLogosRow2 = styled.div`
@@ -257,6 +297,11 @@ const HomepageSecondPortionRightSideLogosRow2 = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+        height: 100%;
+    }
 `;
 
 const HomepageSecondPortionRightSideIMG = styled.img`
@@ -272,11 +317,20 @@ const HomepageThirdPortion = styled.div`
     align-items: center;
     margin: 0 auto;
     margin-bottom: 10px;
+
+    @media (max-width: 900px) {
+        padding: 0px 1%;
+    }
 `;
 
 const HomepageThirdPortionLeftSideIMG = styled.img`
     width: 445px;
     height: 284px;
+
+    @media (max-width: 900px) {
+        width: 47.5%;
+        height: auto;
+    }
 `;
 
 const HomepageThirdPortionRightSideDiv = styled.div`
@@ -285,6 +339,11 @@ const HomepageThirdPortionRightSideDiv = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (max-width: 900px) {
+        width: 47.5%;
+        height: auto;
+    }
 `;
 
 const HomepageThirdPortionRightSideH2 = styled.h2`
@@ -295,6 +354,11 @@ const HomepageThirdPortionRightSideH2 = styled.h2`
     line-height: 56px;
     letter-spacing: -0.369231px;
     color: #36536B;
+
+    @media (max-width: 900px) {
+        font-size: 4.0rem;
+        line-height: 48px;
+    }
 `;
 
 const HomepageThirdPortionRightSideP = styled.p`
@@ -327,13 +391,18 @@ const HomepageFourthPortion = styled.div`
     }
 
     @media (max-width: 1000px) {
-        padding-right: 0%;   
         background-position: 300% 0px; 
     }
 
     @media (max-width: 925px) {
-        padding-left: 2%;
         background-position: 400% 0px; 
+    }
+
+    @media (max-width: 900px) {
+        background-image: none;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        height: 700px;
     }
 `;
 
@@ -347,6 +416,11 @@ const HomepageFourthPortionLeftSide = styled.div`
     @media (max-width: 925px) {
         width: 40%;
         height: auto;
+    }
+
+    @media (max-width: 900px) {
+        margin-bottom: 45px;
+        width: 65%;
     }
 `;
 
@@ -363,6 +437,12 @@ const HomepageFourthPortionLeftSideH2 = styled.h2`
         font-size: 4.0rem;
         line-height: 48px;
     }
+
+    @media (max-width: 900px) {
+        margin-bottom: 15px;
+        font-size: 4.8rem;
+        line-height: 56px;
+    }
 `;
 
 const HomepageFourthPortionLeftSideP = styled.p`
@@ -378,18 +458,10 @@ const HomepageFourthPortionRightSideIMG = styled.img`
     margin-top: 50px;
     overflow: hidden;
 
-    @media(max-width: 1000px) {
-        margin-left: 50px;
-    }
-
     @media (max-width: 900px) {
-        margin-left: 0px;
-        margin-right: -40px;
+        margin-top: 0px;
     }
 
-    @media (max-width: 850px) {
-        margin-right: -70px;
-    }
 `;
 
 const HomepageFifthPortion = styled.div`
@@ -399,6 +471,10 @@ const HomepageFifthPortion = styled.div`
     justify-content: space-between;
     padding: 0px 11.4583333%;
     margin-bottom: 96px;
+
+    @media (max-width: 1150px) {
+        padding: 0px 4%;
+    }
 `;
 
 const HomepageFifthPortionContainer = styled.div`
